@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ordered List using for loop</title>
+</head>
+<body>
+
+<script>
+ function task1(){
+let ol = document.createElement("ol");
+
+let items = ["HTML", "CSS", "JavaScript", "Java", "SQL"];
+for(let i = 0; i < items.length; i++){
+    let li = document.createElement("li");
+    li.textContent = items[i];
+    ol.appendChild(li);
+}
+
+document.body.appendChild(ol);
+ }
+ task1();
+ function task2(){
+    let div = document.createElement("div");
+
+let p = document.createElement("p");
+
+p.textContent = "This is a paragraph inside a div created using JavaScript.";
+
+div.appendChild(p);
+document.body.appendChild(div);
+
+ }
+ task2()
+ function task3(){
+
+let div = document.createElement("div");
+let h1 = document.createElement("h1");
+h1.textContent = "Welcome to My Page";
+let p = document.createElement("p");
+p.textContent = "This paragraph is inside the div element created using JavaScript.";
+div.appendChild(h1);
+div.appendChild(p);
+
+document.body.appendChild(div);
+ }
+task3()
+function task4(){
+    let table = document.createElement("table");
+table.border = "1";
+    let tr = document.createElement("tr");
+let td00 = document.createElement("td");
+td00.textContent = "HTML";
+
+let td01 = document.createElement("td");
+td01.textContent = "CSS";
+
+let td02 = document.createElement("td");
+td02.textContent = "JavaScript";
+tr.append(td00, td01, td02);
+table.appendChild(tr);
+
+let tr1 = document.createElement("tr");
+let td10=document.createElement("td");
+td10.textContent="Python";
+let td11=document.createElement("td");
+td11.textContent="Django";
+let td12=document.createElement("td");
+td12.textContent="Flask";
+tr1.append(td10,td11,td12);
+table.appendChild(tr1);
+document.body.appendChild(table);
+}
+task4()
+   
+ function task5(){
+     let div = document.createElement("div");
+
+let buttons = ["Home", "About", "Services", "Contact", "Login"];
+
+for(let i = 0; i < buttons.length; i++){
+    let btn = document.createElement("button");
+    btn.textContent = buttons[i];
+    div.appendChild(btn);
+}
+
+document.body.appendChild(div);
+ }
+ task5()
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "pavan"
+    },
+    {
+      "id": "2",
+      "name": "sneha"
+    },
+    {
+      "id": "3",
+      "name": "ajay"
+    },
+    {
+      "id": "3",
+      "name": "ajay"
+    },
+    {
+      "id": "4",
+      "name": "bharath"
+    },
+    {
+      "id": "5",
+      "name": "latha"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
